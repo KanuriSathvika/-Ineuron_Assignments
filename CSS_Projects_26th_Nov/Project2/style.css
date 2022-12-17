@@ -1,0 +1,143 @@
+*{
+
+    /* box-sizing: border-box; */
+    /* font-family:Bahnschrift Light; */
+    font-family: Bahnschrift Light,'Courier New', Courier, monospace;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow','Bahnaschrift', Arial, sans-serif; */
+    /* font-family:Embarcadero Mvb pro Extrabold; */
+}
+body{
+    background-color: rgb(238, 247, 247);
+    /* overflow: hidden; */
+    /* margin:auto; */
+    position:fixed;
+}
+nav{
+
+    display:flex;
+    align-items: center;
+    /* margin-left:50px; */
+    
+    /* gap:50px */
+}
+nav li{
+    list-style-type: none;
+    margin-top:20px;
+}
+nav li img{
+    /* margin-right:700px; */
+    margin-left:40px;
+    height:60px;
+}
+ .rightnav{
+    display:flex;
+    justify-items:flex-end;
+    /* align-items: center; */
+    /* margin-left:100px; */
+    gap:70px;
+    padding-left:90vh;
+    
+    font-size:17px;
+    font-weight:bold;
+    margin-left:1px;
+ }
+ #rleftnav{
+    color:#3CB371;
+ }
+.middle{
+ 
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    /* margin:5% */
+}
+.leftmid{
+    /* margin:60%; */
+    /* margin:100px; */
+    /* margin-right:10px; */
+    margin:0 15% 0 8%;
+    margin-top:50px;
+    /* padding-left:10px */
+    /* margin-left:20px; */
+    /* margin-left:60px */
+    /* padding-right: 500px; */
+    position:relative;
+    left:60px;
+}
+.leftmid h1{
+    font-size:85px;
+    font-weight:bolder;
+    margin-top:10px;
+    font-family: Bahnschrift ;
+    margin-bottom:20px;
+    padding-right:100px;
+    /* width:700px; */
+    /* height:400px; */
+}
+.leftmid p{
+    /* margin-bottom:4px; */
+    font-size:21px;
+    /* height:10px; */
+    width:100vh;
+    font-weight:lighter;
+    color:#7d7979;
+    padding-right:100px;
+    padding-top:20px ;
+}
+.leftbottom button{
+    border:none;
+    border-radius: 50px;
+    height:70px;
+    color:white;
+    font-weight:bold;
+    background-color: #4eba7e;
+    width:50vh;
+    font-size: 27px;
+    
+}
+.botangle{
+    margin-left:290px;
+    top:30px;
+    padding-bottom:10px;
+}
+.stethoscope{
+    position:absolute;
+    height:91vh;
+    width:90vh;
+    left:250px;
+    /* top:-10px; */
+    bottom:-7vh;
+}
+.mouse{
+    /* align-self:baseline; */
+    /* margin-top:40px; */
+    position:relative;
+    left:30px;
+    top:35px;
+}
+.rightmid{
+    margin-right: 105px;
+}
+.under{
+    height:68vh;
+    width:67vh;
+    position:relative;
+    top:7vh;
+    bottom:0vh;
+    right:3vh;
+}
+.undermid{
+    height:58vh;
+    width:58vh;
+    position:absolute;
+    bottom:24px;
+    right:-1vh;
+}
+.doctor{
+    height:90vh;
+    width:65vh;
+    position:absolute;
+    bottom:-38px;
+    right:2vh;
+}
+

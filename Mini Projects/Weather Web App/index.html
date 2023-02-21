@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+         <h1>Weather Web App</h1>
+         <form onsubmit="getData(event)" class="searchdata">
+            <input id="inputbox" type="text" placeholder="Enter the city name">
+            <button>Search</button>
+         </form>
+        <section class="locations">
+            <div>
+                <p>Country Name</p>
+                <p id="countryname">__</p>
+            </div>
+            <div>
+                <p>Sate Name</p>
+                <p id="statename">__</p>
+            </div>
+            <div>
+                <p>City Name</p>
+                <p id="cityname">__</p>
+            </div>
+        </section>
+        <section class="current">
+            <div>
+                <p>Humidity</p>
+                <p id="humidity">__</p>
+            </div>
+            <div>
+                <p>Wind Speed</p>
+                <p><span id="windspeed">__</span>KMPH</p>
+            </div>
+            <div>
+                <p>Temperature</p>
+                <p><span id="temperature">__</span>&#8451;</p>
+            </div>
+            <div>
+                <img width="20px" src="" alyt="icon"/>
+                <p id="weatherstatus">__</p>
+            </div>
+        </section> 
+    </div>
+</body>
+<script src="./script.js"></script>
+</html>

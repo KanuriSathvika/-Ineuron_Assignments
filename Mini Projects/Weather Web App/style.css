@@ -1,0 +1,42 @@
+
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:10%;
+    background-color: skyblue;
+}
+.container{
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;;
+    width:80vh;
+    border-style: solid;
+    text-align: center;
+    background-color: #fff;
+}
+.searchdata{
+    display:inline-block;
+    border-style: solid;
+    border-width: 2px;
+}
+.searchdata input{
+    border:transparent;
+
+}
+.searchdata button{
+    border:transparent;
+    cursor:pointer;
+}
+.locations{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+}
+.current{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+}

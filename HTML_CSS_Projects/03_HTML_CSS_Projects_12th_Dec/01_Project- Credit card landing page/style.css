@@ -1,0 +1,403 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background-color: #151515;
+    color: #f1e7e7;
+
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:15vh;
+    font-size: 16px;
+    gap:30px;
+}
+nav li{
+    list-style-type: none; 
+
+}
+
+#nav-logo{
+    position: relative;
+    right:45vh;
+}
+nav div{
+    display:flex;
+    align-items: center;
+    gap:30px;
+    position:relative;
+    left:50vh;
+}
+nav #nav-contact{
+    display:flex;
+    align-items: center;
+}
+nav #nav-contact .nav-c{
+    position:relative;
+    right:20px;
+    background: transparent;
+}
+.sec1 {
+    margin-left:20px;
+    display:flex;
+    justify-content:center;
+    height:100vh;
+}
+
+.top-left{
+    width:45%;
+    position:relative;
+    left:20px;
+    top:40px;
+}
+.top-left h1{
+    font-size: 13vh;
+    width:165vh;
+    font-weight: bolder;
+
+}
+.top-left h1 span{
+    color:rgb(230, 61, 230);
+}
+.top-left-p1{
+    width:100vh;
+    margin-top:40px;
+    font-size: 23px;
+}
+
+.top-left #get-started{
+    margin:50px 0px;
+    display:flex;
+    align-items: center;
+}
+#get-started p{
+    background: transparent;
+    position:relative;
+    right:20px;
+    font-weight: bold;
+}
+#get-started #right-arrow{
+   width:50px;
+   position: relative;
+   right:10px;
+}
+
+
+.top-left-down{
+    display:flex;
+    gap:10px;
+    font-size:20px;
+    align-items: center;
+}
+
+.top-left-k{
+    font-weight: bold;
+    font-size:30px;
+    display: flex;
+    align-items: center;
+}
+.top-left-k span{
+     color:rgb(230, 61, 230);
+     font-size:25px;
+     
+}
+.top-left-down img{
+    height:7vh
+}
+.top-left-down2{
+    width:120px;
+}
+#frontcards{
+    position: absolute;
+    top:90px;
+    right:0vh;
+    background:transparent;
+}
+#backcards{
+    height:80vh;
+    position:relative;
+    left:20px;
+    bottom: 30px;
+    right:40vh;
+    background:transparent;    
+}
+
+.sec2{
+    margin-top:50px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color:rgb(67, 66, 66);
+    height:30vh;
+    gap:15vh;
+    
+}
+.sec2 img{
+    background: transparent;
+}
+
+.sec3{
+    height:140vh;
+    
+}
+.sec3 .sec3-top{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    height:60vh
+}
+.sec3-top h1{
+    width:100vh;
+    font-size:9vh;
+}
+.sec3-top h1 span{
+    color:rgb(230, 61, 230);
+}
+.sec3-top p{
+    width:60vh;
+    font-size: 20px;
+}
+.sec3 .sec3-bottom {
+    height:70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+    border-color: #fff;
+    text-align: center;
+}
+.sec3-bottom div{
+    border:solid;
+    border-color: #fff;
+    text-align: center;
+    width:45vh;
+    height:45vh;
+    font-size:25px;
+    padding-top:30px;
+}
+
+#cloud{
+    position: relative;
+    bottom:40px;
+    background-color: #474444;
+}
+#cloud p{
+    background: transparent;
+}
+#cloud img{
+    background: transparent;
+}
+
+.sec4{
+    height:185vh;
+    text-align: center;
+    background-color: #fff;
+    color: #151515;
+    padding: 5%;
+}
+.sec4 h1{
+    background: transparent;
+    color: black;
+    font-size: 15vh;
+    width:180vh;
+    text-align: center;
+    position:relative;
+}
+.sec4 h1 span{
+    background: transparent;
+    color: rgb(230, 61, 230);
+
+}
+.sec4 p{
+    background: transparent;
+    color:#171717;
+    position:relative;
+    top:40px;
+    left:35vh;
+    width:120vh;
+    font-size:25px;
+}
+.sec4 img{
+    background: transparent;
+}
+
+.sec5{
+    height:120vh;
+    text-align: center;
+    margin-top:15vh;
+}
+.sec5 h1{
+    width:210vh;
+    font-size: 14vh;
+    position:relative;
+}
+.sec5 h1 span{
+    color:rgb(230, 61, 230)
+}
+
+.sec5-1{
+    font-size: 20px;
+    width:80vh;
+    position:relative;
+    top:25px;
+    left:70vh;
+    gap:20px;
+    display: grid;
+}
+.sec5-box-container{
+    display:grid;
+    justify-content: center;
+    position:relative;
+    top:10vh;
+    grid-template-columns: 500px 500px;
+    row-gap: 40px;
+    column-gap: 90px;
+    text-align: left;
+    font-weight:100
+}
+#sec5-box1{
+    background-color: #494848;
+}
+.sec5-box{
+    border:solid white 0.1px;
+    background-color: #292727;
+    display: grid;
+    width:62vh;
+    font-size: 15px;
+    height:30vh;
+    padding:5%;
+}
+.sec5-box img{
+    background: transparent;
+}
+.sec5-box p{
+    background: transparent;
+}
+
+.sec5-line-dot{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    left:35vh;
+    gap:20px;
+    height:60px;
+}
+.sec5-line{
+    background-color: rgb(230, 61, 230);
+    font-size:40px;
+    width:70px;
+    border-radius:10px;
+    height:15px;
+}
+.dot{
+    background-color: #595656;
+    color:#fff;
+    border-radius:15px;
+    font-size:40px;;
+    height:15px;
+    width:15px;
+}
+
+.sec6{
+    height:50vh;
+    margin-top:30vh;
+}
+.sec6-top{
+    background: transparent;
+}
+#sec6-rectangle-pink{
+    width:212.5vh;
+    height:70vh;
+    
+}
+#sec6-rectangle-grey{
+    width:212.5vh;
+    height:70vh;
+    position:absolute;
+    left:1px;
+    background: transparent;
+}
+#sec6-diamond-left{
+
+    position:absolute;
+top:647vh;
+right:0px;
+    background:transparent;
+}
+#sec6-diamond-right{
+    position:absolute;
+    right:136.9vh;
+    top:641vh;
+    background: transparent;
+}
+.sec6-top{
+    text-align: center;
+
+}
+.sec6-top h1{
+    position:absolute;
+    left:10vh;
+    top:655vh;
+    background: transparent;
+    font-size:90px;
+    width:190vh;
+}
+.sec6-top h1 span{
+    background: transparent;
+    color: #000;
+}
+#sec6-get{
+    position:absolute;
+    left:90vh;
+    top:695vh;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#sec6-pink-btn{
+    background: transparent;
+    height:30px;
+
+}
+#sec6-get p{
+    position: relative;
+    background: transparent;
+    right:25px;
+    font-size: 20px;;
+
+}
+#sec6-right-arrow{
+    position:relative;
+    right:20px;
+    background:transparent;
+}
+
+.sec6-foot{
+    height:20vh;
+    display: flex;
+    align-items:center;
+    gap:30px;
+
+}
+.sec6-foot img{
+    margin-left:20vh;
+    height:30px;
+    left:10vh;
+}
+.sec6-foot div{
+    margin-left:40vh;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap:30px;
+
+}

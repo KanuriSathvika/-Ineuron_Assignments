@@ -1,0 +1,349 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+    
+}
+body{
+    overflow-x: hidden;
+    background-color: rgb(242, 242, 244);
+}
+.sec1{
+   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),url(./Images/mainBackground.png);
+   color:#fff;
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 100vh;
+}
+.sec1 nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height:13vh;
+}
+nav img{
+    height:7vh;
+    position: relative;
+    right:15vh;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap:10vh;
+}
+.sec1-line{
+    height:1px;
+    background-color: rgb(212, 210, 210);
+    margin-left: 5%;
+    margin-right: 6%;
+
+}
+.sec1-mid{
+    margin:7%;
+
+}
+.sec1-mid h1{
+    font-size: 60px;
+    width:70vh;
+}
+.sec1-mid p{
+    font-size:15px;
+    width:40vh;
+    margin-top: 20px;
+    
+}
+.sec1-mid button{
+    margin-top: 20px;
+    border: none;
+    height:40px;
+    width:20vh;
+    border-radius: 20px;
+    color:#fff;
+    background-color:rgb(103, 101, 243);
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+.sec2 .sec1-bottom{
+    height:20vh;
+    margin-left:3%;
+    margin-right:3%;
+    background-color: #fff;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position:relative;
+    bottom:28vh;
+    border-radius: 20px;
+    
+}
+.sec2 .sec1-bottom img{
+    height:6vh;
+}
+.sec2{
+    padding-top: 20vh;;
+   
+}
+.sec2 h1{
+    text-align: center;
+    margin-left:40%;
+    width:40vh;
+    padding-bottom:5%;
+    font-size: 40px;
+}
+.sec2 img{
+    height:45vh;
+    width:45vh;
+    border-radius: 20px;
+}
+.sec2-row1{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:20px;
+}
+.sec2-card-det{
+    margin-left:17px;
+    margin-right:10px;
+    height:15vh;
+    width:40vh;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    bottom: 5vh;
+    border-radius:20px;
+    font-weight: bold;
+}
+.sec2-card-det div{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.sec2-card-name{
+    font-size:18px;
+}
+.sec2-card-price{
+
+    color:rgb(103, 101, 243);
+}
+.sec2-card-det button{
+    background-color: rgb(103, 101, 243);
+    color:#fff;
+    border:none;
+    height:40px;
+    width:15vh;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#sec2-row1-2{
+    position: relative;
+    top:20px;
+}
+#sec2-row1-3{
+    position: relative;
+    top:40px;
+}
+#sec2-row2{
+    padding-top: 11vh;
+}
+#sec2-row2-2{
+    position: relative;
+    bottom: 20px;
+}
+#sec2-row2-3{
+    position: relative;
+    bottom:40px;
+}
+#sec2-row3-2{
+    position: relative;
+    top:20px;
+}
+#sec2-row3-3{
+    position:relative;
+    top:40px;
+}
+
+.sec3{
+    margin-top:20vh;
+}
+.sec3-row1{
+    display: flex;
+    height:90vh;
+
+}
+.sec3-row1-img2{
+    height:68vh;
+    width:68vh;
+    position: relative;
+    bottom:85vh;
+    left:18.5vh;
+    border-radius: 40px;;
+}
+.sec3-row1-info{
+    padding-right: 40vh;
+    padding-top: 10vh;
+    gap:30px;
+    display: flex;
+    flex-direction: column;
+    width:70%;
+}
+.sec3-row1-info h1{
+    font-size:60px;
+}
+.sec3-row1-info p{
+    font-size:15px;
+}
+.sec3-row1-info button{
+    height:60px;
+    width:30vh;
+    border: none;
+    border-radius: 40px;
+    background-color: rgb(103, 101, 243);
+    color:#fff;
+    font-size: 17px;
+    cursor: pointer;
+}
+.sec3-row2{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+.sec3-row2-imgs{
+    display: flex;
+    flex-direction: row-reverse;
+    width:50%;
+}
+.sec3-row2-img2{
+    height:68vh;
+    width: 68vh;
+    position: relative;
+    left:76vh;
+    bottom: 10vh;
+    border-radius: 40px;
+}
+.sec3-row2-info{
+    padding-left:20vh;
+    display: flex;
+    flex-direction: column;
+    gap:40px;
+    padding-bottom: 20vh;
+}
+.sec3-row2-info h1{
+    font-size: 60px;
+    width:60vh;
+}
+.sec3-row2-info p{
+    font-size:15px;
+    width:55vh;
+}
+.sec3-row2-info button{
+    height:60px;
+    width:30vh;
+    border: none;
+    border-radius: 40px;
+    background-color: rgb(103, 101, 243);
+    color:#fff;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.sec4{
+    margin-top:10vh;
+    margin-left: 7vh;
+    margin-right: 7vh;
+}
+.sec4-top{
+    height:60vh;
+    background-color: rgb(103, 101, 243);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-evenly;
+    border-radius: 40px;
+    text-align: center;
+}
+.sec4-top h1{
+    font-size: 70px;
+    width:60rem;
+}
+.sec4-top p{
+    font-size: 15px;
+    width:80vh;
+}
+.sec4-top div{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.sec4-mail{
+    height:50px;
+    width:50vh;
+    display: inline-flex;
+    padding-left: 10px;
+    justify-content: left;
+    align-items: center;
+    gap:20px;
+    border: none;
+    border-radius: 70px;
+    color: #e2d6d6;
+    background-color: rgb(86, 65, 200);
+}
+#sec4-mail-img{
+    position: relative;
+    left:8vh;
+}
+.sec4-mail::placeholder{
+    color:#cac9c9;
+    padding-left:5vh;
+}
+.sec4-subscribe{
+    background-color: #fff;
+    color: mediumslateblue;
+    border: none;
+    border-radius: 40px;
+    height:50px;
+    width:20vh;
+    font-size: 15px;
+}
+.sec4-bottom{
+    margin-top: 10vh;;
+    display: flex;
+    justify-content: center;
+    gap:20vh;
+    margin-bottom: 10vh;
+}
+.sec4-bottom-col{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.sec4-bot-logo{
+    height:60px;
+}
+.sec4-bot-media-imgs{
+    display: flex;
+    justify-content: center;
+    gap:20px;
+}
+.sec4-bot-2022{
+    font-size: 15px;
+    width:40vh;
+    position: relative;
+    left:6vh;
+
+}
+#sec4-bottom-col-1{
+    padding-right: 45vh;
+}
+.sec4-bot-p{
+    font-size: 20px;
+    font-weight: bold;
+}
+ 

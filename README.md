@@ -15,12 +15,11 @@
 - Project repo - [Beats Landing page](HTML_CSS_Projects/03_HTML_CSS_Projects_12th_Dec/05_Project-Beats_Landing_page)
 - Project repo - [Data Analytics Landing page](HTML_CSS_Projects/03_HTML_CSS_Projects_12th_Dec/06_Project-Data_Analytics_Landing_Page)
 
-<hr>
----
+
 ## Tailwind Projects
 - Project repo - [VS Code Clone](https://github.com/KanuriSathvika/FSJS2.0/tree/main/Tailwind/VS_code_clone)
 
-<hr>
+
 
 ## JavaScript Assignments
 - JavaScript Assignment - [Assignment](JavaScript_Assignment)

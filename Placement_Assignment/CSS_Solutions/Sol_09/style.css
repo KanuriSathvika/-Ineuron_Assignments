@@ -1,0 +1,65 @@
+body{
+    background-color: rgb(174, 224, 236);
+    color:#eeebeb;
+    padding-left:3vh;
+    padding-right: 3vh;
+    font-size: 30px;
+    font-family:  sans-serif;
+}
+nav{
+    margin: 5vh 0;
+    background-color: rgb(88, 202, 185);
+    height:10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    height:75vh;
+    /* gap:14vh; */
+    /* height:50%; */
+} 
+aside{
+    width:20%;
+    background-color: rgb(108, 207, 108);
+    height: 76vh;
+    
+}
+aside div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:70vh
+}
+article{
+    width:75%;
+    background-color: orange;
+    height: 70vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items:center;
+    padding:3vh;
+}
+.images{
+    display: grid;
+    /* justify-items:end; */
+    justify-content: space-between;
+    grid-template-columns: repeat(3,10fr);
+    gap: 10vh;
+    /* gap:10px; */
+    /* align-content:space-around; */
+}
+.images div{
+    height:40vh;
+    width: 40vh;
+    background-color: rgb(227, 186, 110);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
